@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <main id="main">
+        <div class="container">
+            <div class=" overlay">
+                <h1 class="heads text-center"> <a href="index.html" class="head"> JS Calculator</a> </h1>
+
+                <div class="row">
+
+                    <div class="col col-5 col-md-6 col-sm-8 col-xs-10 right">
+                        <div class="card">
+                            <div class="card-body">
+                                <form action="#" name="frm" id="frm">
+                                    <div class="top">
+                                        <input type="number" class="numbers" name="number1"
+                                            placeholder="Enter 1st Number...">
+                                        <input type="number" class="numbers" name="number2"
+                                            placeholder="Enter 2nd Number...">
+                                    </div> <br>
+
+                                    <div class="bottom ">
+
+                                        <button type="button" class="sum btn"
+                                            onclick="calcadd(+frm.number1.value, +frm.number2.value)">+</button>
+                                        <button type="button" class="sub btn"
+                                            onclick="calcsub(+frm.number1.value, +frm.number2.value)">-</button>
+                                        <button type="button" class="mul btn"
+                                            onclick="calcmul(+frm.number1.value, +frm.number2.value)">x</button>
+                                        <button type="button" class="div btn"
+                                            onclick="calcdiv(+frm.number1.value, +frm.number2.value)">/</button>
+                                        <button type="button" class="mod btn"
+                                            onclick="calcrem(+frm.number1.value, +frm.number2.value)">%</button>
+                                    </div>
+
+                                    <div class="bottom3">
+                                        <button type="button" class="btn btn1" onClick="allReset()">AC</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <!-- Result Part -->
+
+
+
+                <div class="row row2">
+
+                    <div class="col col-5 col-md-6 col-sm-8 col-xs-10 right right2">
+                        <h4 class="heads text-center"> Result</h4>
+                        <div class="card card2">
+
+                            <ul id="list">
+
+                            </ul>
+                            <div class="bottom bottom2">
+                                <button type="button" class="btn btn2" onClick="Resetall()">CLEAR</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="./js/calc.js"></script>
+</body>
+
+</html>

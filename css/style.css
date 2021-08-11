@@ -1,0 +1,205 @@
+#main {
+    width: 100%;
+    background: url(../img/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    /* border: 1px solid red; */
+}
+
+#main .container {
+    background: rgba(0, 0, 0, 0.65);
+    width: 100%;
+}
+
+#main .container .row {
+    width: 100%;
+    /* border: 1px solid red; */
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+#main .container .head {
+    margin: 5px 0 5px 0;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(255, 118, 5);
+
+}
+
+#main .container .right {
+    background: rgba(235, 233, 233, 0.1);
+    backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    padding: 15px 5px;
+    border-radius: 15px;
+    /* box-shadow: 3px 5px 10px #181818; */
+}
+
+
+#main .container .card .card-body {
+    /* border: 1px solid red; */
+    text-align: center;
+    justify-content: center;
+}
+
+
+#main .container form .top {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+
+
+#main .container form .numbers {
+    display: inline-block;
+    width: 90%;
+    min-height: 15%;
+    padding: 20px 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 22px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(99, 203, 235, 0.233);
+    color: rgb(255, 255, 255);
+}
+
+
+#main .container form .numbers:focus {
+    border-radius: 16px;
+    border: 2px solid rgb(0, 94, 122);
+    background-color: rgba(1, 38, 49, 0.486);
+    box-sizing: border-box;
+}
+
+#main .container .bottom {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+}
+
+#main .container .btn {
+    display: inline-block;
+    padding: 20px 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+
+#main .container .btn:hover {
+    background: rgb(255, 118, 5);
+    color: cornsilk;
+    transition: all linear .25s;
+}
+
+#main .container .bottom3 {
+    display: grid;
+    /* justify-items: flex-end; */
+    width: 100%;
+    padding: 10px 25px;
+    justify-content: flex-end;
+    box-sizing: border-box;
+
+}
+
+#main .container .btn1 {
+    background: rgb(255, 2, 2);
+    color: cornsilk;
+    max-width: 20vw;
+    min-width: 14vw;
+    border: 2px solid rgb(255, 2, 2);
+    box-sizing: border-box;
+}
+
+#main .container .btn1:hover {
+    color: rgb(255, 2, 2);
+    border: 2px solid rgb(255, 2, 2);
+    background: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+
+}
+
+
+/*      Result Part       */
+
+#main .container .row2 {
+    width: 100%;
+    min-height: 28vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 16px 0;
+}
+
+
+#main .container .right2 {
+    position: relative;
+}
+
+#main .container .heads {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(255, 118, 5);
+}
+
+#main .container .card2 {
+    color: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+}
+
+#main .container #list {
+    height: 5vh;
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+#main .container .row .bottom2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+#main .container .btn2 {
+    display: inline-block;
+    padding: 8px 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+#main .container .btn2:hover {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+
+}
